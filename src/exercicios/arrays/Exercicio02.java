@@ -5,9 +5,9 @@ public class Exercicio02 {
         int[] numeros = {7, 34, 13, 58, 65, 96, 33, 24, 2, 85};
         int soma = 0;
 
-        for (int i = 0; i < numeros.length; i++) {
-            System.out.print(soma + " + " + numeros[i]);
-            soma += numeros[i];
+        for (int numero : numeros) {
+            System.out.print(soma + " + " + numero);
+            soma += numero;
             System.out.println(" = " + soma);
         }
 

@@ -6,13 +6,13 @@ public class Exercicio03 {
         int menorNumero = numeros[0];
         int maiorNumero = numeros[0];
 
-        for (int i = 0; i < numeros.length; i++) {
-            if (numeros[i] < menorNumero) {
-                menorNumero = numeros[i];
+        for (int numero: numeros) {
+            if (numero < menorNumero) {
+                menorNumero = numero;
             }
 
-            if (numeros[i] > maiorNumero) {
-                maiorNumero = numeros[i];
+            if (numero > maiorNumero) {
+                maiorNumero = numero;
             }
         }
 

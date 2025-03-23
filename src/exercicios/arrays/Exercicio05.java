@@ -19,11 +19,11 @@ public class Exercicio05 {
 
         media = media / notas.length;
 
-        System.out.println("Média do aluno: " + media);
+        System.out.println("Média do aluno: " + String.format("%.2f", media));
 
         if (media >= 7) {
             System.out.println("Aprovado");
-        } else if (media >= 5 || media <= 6.9) {
+        } else if (media >= 5) {
             System.out.println("Recuperação");
         } else {
             System.out.println("Reprovado");
